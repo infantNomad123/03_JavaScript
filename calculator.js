@@ -1,7 +1,8 @@
-const numDisplay = document.getElementById("numPrint");
+const numDisplay = document.getElementById("np1");
+const numDisplay2 = document.getElementById("np2");
 let count = 0;
 
-function butt(button){
+function numBtn(button){
 
     switch(button){
         case '1' :
@@ -87,9 +88,25 @@ function butt(button){
                 numDisplay.innerText +='6';
             }
             break;
-            
-        
     }
-    
+}
 
+function numOp(op){
+    const n1 = Number(numDisplay.innerText);
+    const n2 = Number(numDisplay2.innerText);
+    switch(op){
+        case '+': numDisplay.innerText = n1+n2;break;
+        case '-':
+        case '*':
+        case '/':
+        case '%':
+    }
+}
+function equalFunc(opr){
+    numOp(opr);
+    numDisplay2.innerText = numDisplay.innerText;
+    
+    numDisplay.innerText = " ";
+    numDisplay2.style.fontSize =  "25px";
+    numDisplay2.style.marginBottom = "20px";
 }
