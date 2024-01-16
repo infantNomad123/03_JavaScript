@@ -41,14 +41,14 @@
           -> alert("비밀번호가 일치하지 않습니다") 출력
       </pre>
 
-      <button onclick = "test()">연습용 출금 버튼</button>
+      <button onclick = "deposit()">연습용 출금 버튼</button>
 
       <div id = "container">
-            <div id = "balance"> 잔액: 10000 원</div>
-            <div id = "amount"> 금액 : <input type="number" value=""> </div>
+            <div id = "balance"> </div>
+            <div id = "amount"> 금액 : <input type="number" id =  "amount1" value=""> </div>
             <br>
-            <button id = "input">입금</button>
-            <button id = "output">출금</button>
+            <button id = "input" onclick = "deposit()">입금</button>
+            <button id = "output" onclick = "withdrawal()">출금</button>
         </div>
 
 

@@ -48,6 +48,15 @@ button{
     font-size: 20px;
 }
 
-#enterVal {
+#amount1 {
+    height:40px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+    padding:20px;
     
 }

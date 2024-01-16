@@ -8,14 +8,15 @@
 </head>
 <body>
     <div id = "container">
-        <div id = "balance">잔액 : 200000</div>
-        <div id = "amount">금액 : 20000</div>
-        <button id = "input1" onclick = "click()">입금</button>
-        
-        <button id = "input2">출금</button>
+        <div id = "balance"> </div>
+            <div id = "amount"> 금액 <input type="number" id =  "amount1" value=""> </div>
+            <br>
+            <button id = "input" onclick = "deposit()">입금</button>
+            <button id = "output" onclick = "withdrawal()">출금</button>
         
     </div>
     <div id = "enterVal"></div>
-    
+
+<script src = "../js/06_입출금하기.js"></script>
 </body>
 </html>
