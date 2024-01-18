@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.outer-container{
+    display:flex;
+    margin-left: 500px ;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+    
+}
+.container {
+    display:flex;
+    flex-direction: column;
+  
+    width: 20%;
+    justify-content: space-evenly;
+    margin: 20px;
+    border:1px solid black;
+    
+}
+.container > div{
+    height: 200px;
+    box-sizing: 200px;
+    border: 1px solid black;
+    
+    /* css 변경 시간 */
+    transition-duration: 0.5s;
+}
+
+#btn{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width:500px;
+    justify-content: center;
+    align-self:center;
+    font-weight:bold;
+    
+}
