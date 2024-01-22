@@ -79,4 +79,13 @@ resetBtn.addEventListener("click", () => {
     startBtn.disabled = false;
 });
 
+let record = [];
+
+recordBtn.addEventListener("click", () => {
+    output();
+    console();
+});
+
+
+
 
