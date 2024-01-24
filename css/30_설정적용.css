@@ -1,0 +1,35 @@
+.container{
+    width:550px;
+    
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    justify-content: center;
+}
+
+#textColor{
+    margin-left: 15px;
+}
+#lengths{
+    margin-left: 32px;
+    width: 100px;
+}
+#heights{
+    width: 100px;
+}
+
+#textSize{
+    width: 100px;
+}
+#input1{
+    width: 400px;
+}
+.box{
+    display: flex;
+    margin:auto;
+    /* justify-content: center; */
+    /* align-items:center; */
+    width:0;
+    height:0;
+    border:1px solid black;
+}
