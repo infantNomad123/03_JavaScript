@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    margin:auto;
+    
+    width: 730px;
+    height: 650px;
+    border:1px solid black;
+    padding:10px;
+    padding-bottom: 50px;
+}
+.keypad{
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight:bold;
+    
+    /* border:1px solid black; */
+    border-right: 2px solid lightgray;
+    width: 400px;
+    height:100%;
+    margin:auto;
+    
+
+    
+
+}
+.keypad1{
+    display:flex; 
+    flex-wrap:wrap;
+    padding: 20px;
+    margin-bottom: -30px;
+    margin-left: 10px;
+    
+    
+}
+.records{
+    height:100%;
+    width: 200px;
+    margin:auto;
+ 
+  
+    font-weight:bold;
+   
+
+}
+.records > div{
+    text-align: center;
+}
+.number{
+    /* margin:50px;
+    margin-top:20px;
+    margin-left:35px; */
+    width:100px;
+    height:100px;
+    text-align: center;
+    padding:30px;
+    user-select: none;
+
+}
+.number:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 50%;
+    
+}
+.number:active{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 50%;
+    transform: scale(0.9);
+    
+}
+
+.numDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 350px;
+    /* border:1px solid black; */
+    border-bottom: 2px solid lightgray;
+    padding-top:8px;
+    text-align:center; 
+    margin-right: 50px;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:200px;
+    height:100px;
+    margin-left:20px;
+
+    margin-bottom: -100px;
+    
+    
+}
+.buttons > button{
+    width:300px;
+    height:30px;
+}
+#add{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color:green;
+    font-weight:bold;
+}
+#reset{
+    margin-top : 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: white;
+    color:gray;
+    font-weight:bold;
+}
+#add:hover {
+    cursor: pointer;
+    background-color: green;
+    color:white;
+}
+#add:active{
+    background-color: green;
+    color:white;
+  
+}
+#reset:hover {
+    cursor: pointer;
+    background-color: gray;
+    color:white;
+}
+#reset:active{
+    background-color: gray;
+    color:white;
+}
+.lists{
+    display:inline-block;
+    
+}
+.btn1{
+    width:20px;
+    align-self: center;
+    margin-left:20px;
+    background-color: white;
+    border:2px solid white;
+    font-weight: bold;
+    
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.active{
+    color:orange;
+}
+.active1{
+    color:red;
+}
+.btn2{
+    width:20px;
+    align-self: center;
+    background-color: white;
+    border:2px solid white;
+    font-weight: bold;
+   
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.lists{
+    display:flex;
+    justify-content: center ;
+    margin-left : -50px;
+    width: 300px;
+    
+}
